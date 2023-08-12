@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Music for you</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="1" class="brand"><img src="img/musicIcon.png" alt="Songify">Songify</li>
+            <li>Home</li>
+            <li>About </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Trending Now</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <h5>1</h1>
+                    <img  alt="1">
+                    <span class="songName">Khayaal</span>
+                    <span class="songlistplay">02:42 <i id="0" class="fa-solid songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <h5>2</h1>
+                    <img alt="2">
+                    <span class="songName">Perfect</span>
+                    <span class="songlistplay">04:23 <i id="1" class="fa-solid songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <h5>3</h1>
+                    <img alt="3">
+                    <span class="songName">Mi Amor</span>
+                    <span class="songlistplay">03:23 <i id="2" class="fa-solid songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <h5>4</h1>
+                    <img alt="4">
+                    <span class="songName">Shape of You</span>
+                    <span class="songlistplay">03:53 <i id="3" class="fa-solid songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <h5>5</h1>
+                    <img alt="5">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistplay">03:25 <i id="4" class="fa-solid songItemPlay fa-circle-play"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-backward-step" id="previous"></i> 
+            <i class="fa-solid fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="img/gif.gif" id="gif" width="80px" height="50px"> <span id="masterSongName">Khayaal</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/8d5924d7a4.js" crossorigin="anonymous"></script>
+</body>
+</html>
